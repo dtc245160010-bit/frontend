@@ -1,57 +1,67 @@
-/* Thiết lập chung cho trang */
+/* Định dạng chung */
 body {
   font-family: Arial, sans-serif;
-  padding: 30px;
-}
-
-h1 {
-  text-align: center;
+  background-color: #f5f5f5;
   color: #333;
+  text-align: center;
+  margin: 0;
 }
 
-/* Đường viền của bảng */
+/* Tiêu đề */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+}
+
+/* Ảnh đại diện */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #4caf50;
+  margin: 20px;
+}
+
+/* Phần giới thiệu */
+.profile {
+  padding: 20px;
+}
+
+/* Danh sách sở thích */
+ul {
+  list-style-type: square;
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Mục tiêu học tập */
+.goals {
+  padding: 20px;
+}
+
+/* Bảng thông tin */
 table {
-  width: 100%;
+  margin: auto;
   border-collapse: collapse;
+  width: 50%;
 }
 
-/* Đường viền cho bảng, tiêu đề và ô dữ liệu */
-table,
 th,
 td {
   border: 1px solid black;
+  padding: 10px;
 }
 
-/* Chiều cao hàng tiêu đề */
 th {
-  height: 50px;
-}
-
-/* Căn trái tiêu đề */
-th {
-  text-align: left;
-}
-
-/* Căn dọc nội dung */
-td {
-  height: 80px;
-  vertical-align: bottom;
-}
-
-/* Khoảng cách bên trong ô */
-th,
-td {
-  padding: 15px;
-}
-
-/* Màu tiêu đề */
-th {
-  background-color: #333;
+  background-color: #4caf50;
   color: white;
 }
 
-/* Màu dữ liệu */
-td {
-  background-color: #f2f2f2;
-  color: #333;
+/* Footer */
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ddd;
 }
