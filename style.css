@@ -1,66 +1,43 @@
-/* Element selector */
+/* Thiết lập chung cho trang */
 body {
-  background-color: #f2f2f2;
+  background-color: #eaf4f4;
   font-family: Arial, sans-serif;
   text-align: center;
+  margin: 0;
   padding: 30px;
 }
 
-/* ID selector */
-#title {
-  color: #2196f3;
-  text-align: center;
+/* Tiêu đề */
+h1 {
+  color: #333;
 }
 
-/* Class selector */
-.description {
+/* Đoạn văn */
+p {
   color: #555;
   font-size: 18px;
 }
 
-/* Grouping selector */
-h2,
-button {
+/* Khối nội dung */
+.content {
+  background-image: url("images.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  width: 70%;
+  min-height: 300px;
+
+  margin: 30px auto;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   color: white;
-  background-color: #4caf50;
-}
+  text-align: center;
 
-/* Định dạng danh sách */
-ul {
-  display: inline-block;
-  text-align: left;
-  padding: 20px 40px;
-  background-color: white;
-}
-
-/* Các mục trong danh sách */
-li {
-  margin: 10px;
-}
-
-li:nth-child(1) {
-  color: red;
-}
-
-li:nth-child(2) {
-  color: blue;
-}
-
-li:nth-child(3) {
-  color: green;
-}
-
-/* Button */
-button {
-  border: none;
-  padding: 12px 25px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-/* Pseudo-class: hover */
-button:hover {
-  background-color: #2196f3;
-  color: white;
+  border-radius: 10px;
 }
