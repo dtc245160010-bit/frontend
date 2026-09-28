@@ -1,53 +1,57 @@
-/* Phần 2: Danh sách không có thứ tự */
-.subjects {
-  list-style-type: square;
+/* Thiết lập chung cho trang */
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
 }
 
-/* Phần 3: Danh sách có thứ tự */
-.steps {
-  list-style-type: upper-roman;
+h1 {
+  text-align: center;
+  color: #333;
 }
 
-/* Phần 4: Dùng hình ảnh làm dấu */
-.tools {
-  list-style-image: url("icon.png");
+/* Đường viền của bảng */
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-/* Phần 5: Vị trí dấu đánh dấu */
-.outside {
-  list-style-position: outside;
+/* Đường viền cho bảng, tiêu đề và ô dữ liệu */
+table,
+th,
+td {
+  border: 1px solid black;
 }
 
-.inside {
-  list-style-position: inside;
+/* Chiều cao hàng tiêu đề */
+th {
+  height: 50px;
 }
 
-/* Phần 6: Thuộc tính rút gọn list-style */
-.short-list {
-  list-style: square inside;
+/* Căn trái tiêu đề */
+th {
+  text-align: left;
 }
 
-/* Phần 7: Danh sách có màu sắc */
-.languages {
-  background-color: #e8f4ff;
-  color: #1e3a5f;
-  padding: 20px 40px;
+/* Căn dọc nội dung */
+td {
+  height: 80px;
+  vertical-align: bottom;
 }
 
-.languages li {
-  margin: 10px 0;
+/* Khoảng cách bên trong ô */
+th,
+td {
+  padding: 15px;
 }
 
-/* Phần 8: Lộ trình học lập trình Web */
-.roadmap {
-  list-style: decimal inside;
-  background-color: #f0f8ff;
-  color: #16324f;
-  padding: 20px 30px;
-  margin: 20px 0;
-  border-radius: 10px;
+/* Màu tiêu đề */
+th {
+  background-color: #333;
+  color: white;
 }
 
-.roadmap li {
-  margin: 10px 0;
+/* Màu dữ liệu */
+td {
+  background-color: #f2f2f2;
+  color: #333;
 }
