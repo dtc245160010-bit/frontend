@@ -1,11 +1,53 @@
-/* CSS cho phần 3 - External CSS */
-
-/* Tiêu đề */
-.external {
-  color: green;
+/* Phần 2: Danh sách không có thứ tự */
+.subjects {
+  list-style-type: square;
 }
 
-/* Đoạn văn */
-.external {
-  color: green;
+/* Phần 3: Danh sách có thứ tự */
+.steps {
+  list-style-type: upper-roman;
+}
+
+/* Phần 4: Dùng hình ảnh làm dấu */
+.tools {
+  list-style-image: url("icon.png");
+}
+
+/* Phần 5: Vị trí dấu đánh dấu */
+.outside {
+  list-style-position: outside;
+}
+
+.inside {
+  list-style-position: inside;
+}
+
+/* Phần 6: Thuộc tính rút gọn list-style */
+.short-list {
+  list-style: square inside;
+}
+
+/* Phần 7: Danh sách có màu sắc */
+.languages {
+  background-color: #e8f4ff;
+  color: #1e3a5f;
+  padding: 20px 40px;
+}
+
+.languages li {
+  margin: 10px 0;
+}
+
+/* Phần 8: Lộ trình học lập trình Web */
+.roadmap {
+  list-style: decimal inside;
+  background-color: #f0f8ff;
+  color: #16324f;
+  padding: 20px 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.roadmap li {
+  margin: 10px 0;
 }
